@@ -1,0 +1,170 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    border: 1px solid #fff;
+    align-items: center;
+}
+
+.headder-logo{
+    width: 5vw;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para la sección de productos */
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    flex: 0 0 calc(33.33% - 10px);
+    margin: 10px;
+    padding: 1px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.producto img {
+    max-width: 100%;
+}
+.producto2{
+    flex: 0 0 calc(33.33% - 10px);
+    margin: 10px;
+    padding: 1px;
+    border: 1px solid #ddd;
+    text-align: center;
+    position: relative;
+    left: 1000px;
+    bottom: 510px;
+   }
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 600px;
+}
+
+/* Estilos para el botón de añadir al carrito */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.main-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    background: #272727;
+    border: 1px solid #fff;
+    padding: 20px 10px;
+    transform: translateX(100%);
+}
+
+.nav-list{
+    flex-direction: column;
+    text-align: right;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    position: relative;
+    right: 450px;
+    top: 30px;
+}
+
+.ofertas{
+    position: relative;
+    left: 230px;
+    top: 50px;
+}
+
+#ofertas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto3{
+    flex: 0 0 calc(33.33% - 10px);
+    margin: 10px;
+    padding: 1px;
+    border: 1px solid #ddd;
+    text-align: center;
+    position: relative;
+    right: 0px;
+    bottom: 900px;
+}
+
+.producto4{
+    flex: 0 0 calc(33.33% - 10px);
+    margin: 10px;
+    padding: 1px;
+    border: 1px solid #ddd;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    bottom: 365px;
+}
+.producto5{
+    flex: 0 0 calc(33.33% - 10px);
+    margin: 10px;
+    padding: 1px;
+    border: 1px solid #ddd;
+    text-align: center;
+    position: relative;
+    left: 1000px;
+    bottom: 365px;
+}
